@@ -66,23 +66,15 @@
 .slick-prev:before,
 .slick-next:before
 {
-    font-family: 'slick';
-    font-size: 20px;
-    line-height: 1;
-
     opacity: .75;
-    color: white;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     position: absolute;
 }
 
 .slick-prev
 {
-    left: 630px;
+    left: 590px;/*40px*/
     position: relative;
-    top: 582px;
+    top: 550px;
     z-index: 10;
 }
 [dir='rtl'] .slick-prev
@@ -104,9 +96,9 @@
 
 .slick-next
 {
-    left: 792px;
+    left: 765px;
     position: relative;
-    top: -71px;
+    top: -70px;
     z-index: 10;
 }
 [dir='rtl'] .slick-next
